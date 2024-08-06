@@ -2,21 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
 @layer base {
   body {
-    font-family: var(--maison)
+    font-family: var(--maison);
   }
 
   h1 {
-    font-family: var(--font-trump-gothic)
+    font-family: var(--font-trump-gothic);
   }
 }
 
-
-@layer components {
-    .container{ 
-        max-width: 1380px;
-        margin: 0 auto;
-        padding: 12px;
-    }
+.container {
+  max-width: 1380px;
+  margin: 0 auto;
 }
