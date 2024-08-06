@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css";
-import { maison, trumpGothic } from "./fonts/font";
+import Navbar from "../ui/shared/Navbar";
 
 
 
@@ -16,7 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${maison.variable} ${trumpGothic.variable} `}>{children}</body>
+        
+      <body>
+      <Navbar/>
+        {children}
+        </body>
     </html>
   );
 }

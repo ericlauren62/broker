@@ -13,6 +13,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        maison: ["var(--font-maison)"],
+        trumpGothic: ["var(--font-trump-gothic)"]
+      },
+      colors: {
+        primary: "#0052FF"
+      }
     },
   },
   plugins: [],
