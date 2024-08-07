@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -11,12 +12,18 @@ export default function Hero() {
               we make profits.{" "}
             </h1>
             <div className="bg-primary h-1 w-16 mb-8"></div>
-            <p className="max-w-[600px] text-lg">
+            <p className="max-w-[600px] text-lg mb-8">
               Take control of your financial future. Enjoy easy access to
               innovative investment options. Invest in Gold, Oil & Gas Sector,
               Real Estate, Agriculture & Infrastructure, Stock, Bonds, Mutual
               Funds, Forex, Cryptocurrency.{" "}
             </p>
+            <Link
+              href="/login"
+              className="inline-block uppercase bg-primary w-[180px] text-center py-4 rounded-sm font-bold"
+            >
+              Get Started
+            </Link>
           </div>
         </div>
         <div className="container min-h-[15vh] flex items-end justify-center">
