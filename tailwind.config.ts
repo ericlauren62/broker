@@ -18,8 +18,10 @@ const config = {
       },
     },
     extend: {
+      
       backgroundImage: {
-        heroBg: "url('/images/home-hero-bg.jpg')"
+        heroBg: "url('/images/home-hero-bg.jpg')",
+        gradientBlue: "linear-gradient(#000b50, #1b2a89 0%)"
       },
       colors: {
         border: "hsl(var(--border))",
@@ -27,9 +29,9 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        "primary-main": "hsl(var(--primary-main))",
+        primarymain: "hsl(var(--primarymain))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: "#1d6ae5",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
