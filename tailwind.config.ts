@@ -21,7 +21,8 @@ const config = {
       
       backgroundImage: {
         heroBg: "url('/images/home-hero-bg.jpg')",
-        gradientBlue: "linear-gradient(#000b50, #1b2a89 0%)"
+        gradientBlue: "linear-gradient(#000b50, #1b2a89 0%)",
+        gradientDarkBlue: "linear-gradient(190.35deg, #00007E -87.7%, #0d0d0d 86.14%)"
       },
       colors: {
         border: "hsl(var(--border))",
@@ -30,6 +31,8 @@ const config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primarymain: "hsl(var(--primarymain))",
+        skyblue: "#e3f8ff",
+        lightblue: "#215786",
         primary: {
           DEFAULT: "#1d6ae5",
           foreground: "hsl(var(--primary-foreground))",
@@ -38,6 +41,7 @@ const config = {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
         },
+        
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
